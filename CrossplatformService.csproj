@@ -8,18 +8,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="CrossplatformService.Common\**" />
     <Compile Remove="CrossplatformService.Interfaces\**" />
     <Compile Remove="CrossplatformService.Linux\**" />
     <Compile Remove="CrossplatformService.Windows\**" />
+    <EmbeddedResource Remove="CrossplatformService.Common\**" />
     <EmbeddedResource Remove="CrossplatformService.Interfaces\**" />
     <EmbeddedResource Remove="CrossplatformService.Linux\**" />
     <EmbeddedResource Remove="CrossplatformService.Windows\**" />
+    <None Remove="CrossplatformService.Common\**" />
     <None Remove="CrossplatformService.Interfaces\**" />
     <None Remove="CrossplatformService.Linux\**" />
     <None Remove="CrossplatformService.Windows\**" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="CrossplatformService.Common\CrossplatformService.Common.csproj" />
     <ProjectReference Include="CrossplatformService.Interfaces\CrossplatformService.Interfaces.csproj" />
     <ProjectReference Include="CrossplatformService.Linux\CrossplatformService.Linux.csproj" />
     <ProjectReference Include="CrossplatformService.Windows\CrossplatformService.Windows.csproj" />
