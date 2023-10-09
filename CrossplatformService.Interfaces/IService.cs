@@ -1,7 +1,7 @@
 ﻿namespace CrossplatformService.Interfaces
 {
-    public class Class1
+    public interface IService
     {
-
+        public void Update();
     }
 }

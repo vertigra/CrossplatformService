@@ -23,7 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="CrossplatformService.Common\CrossplatformService.Common.csproj" />
     <ProjectReference Include="CrossplatformService.Interfaces\CrossplatformService.Interfaces.csproj" />
     <ProjectReference Include="CrossplatformService.Linux\CrossplatformService.Linux.csproj" />
     <ProjectReference Include="CrossplatformService.Windows\CrossplatformService.Windows.csproj" />
